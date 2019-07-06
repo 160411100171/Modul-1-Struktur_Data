@@ -225,6 +225,7 @@ Tugas Praktikum
     Berikut adalah contoh program untuk memanggil fungsi segitiga tersebut, dan hasil output segitiga yang ditampilkan:
     Jika tinggi segitiga adalah 7
 		    printTrianggle('$',7)
+		    
 			  $
 			 $$$
 			$$$$$
@@ -235,6 +236,7 @@ Tugas Praktikum
 
 
     Jika tinggi segitiga adalah 12
+    
 			       *
 			      ***
 			     *****
