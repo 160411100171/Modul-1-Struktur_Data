@@ -224,8 +224,8 @@ Tugas Praktikum
 
     Berikut adalah contoh program untuk memanggil fungsi segitiga tersebut, dan hasil output segitiga yang ditampilkan:
     Jika tinggi segitiga adalah 7
-		    printTrianggle('$',7)
-		    
+    
+		    printTrianggle('$',7)		    
 			  $
 			 $$$
 			$$$$$
@@ -252,6 +252,7 @@ Tugas Praktikum
 2.	Buatlah suatu modul dengan nama sparseMatrix (matriks yang memiliki banyak elemen ‘nol’) yang berisi beberapa fungsi sebagai berikut :
     a)	Fungsi untuk input data dari user. Input data ini berupa ukuran matriks, dan elemen-elemen pada
         sparse matrix tersebut , seperti contoh berikut
+	
 		matrik-1                  matrik-2
 		Jumlah baris = 3          Jumlah baris = 4
 		Jumlah kolom = 4          Jumlah kolom = 1
@@ -264,6 +265,7 @@ Tugas Praktikum
 		matrik [2,3]= 4           matrik [3,0]= 2
  
     b)	Fungsi untuk menampilkan sparse matrix. Contoh tampilan sparse matrix dapat dilihat sebagai berikut
+    
 		matrik 1=                 matrik 2=
 		| 2 0 0 0 |               | 3|
 		| 0 0 0 0 |               | 0|
@@ -281,7 +283,7 @@ mengalikan dua buah sparse matrix, dan menampilkan sparse matrix-sparse matrix t
 --------------------------------------------------------------------------------------------------------------------------------
 Jawaban :
 
-#jawaban nomor 1 - menampilkan fungsi segitiga
+			#jawaban nomor 1 - menampilkan fungsi segitiga
 			string = ""
 
 			x = int(input("Masukkan angka :"))
@@ -310,7 +312,7 @@ Jawaban :
 			print (string)
 
 
-# jawaban nomor 2 - Sparse Matriks
+	# jawaban nomor 2 - Sparse Matriks
 	def MatriksInput():
 	    baris=input("Jumlah Baris : ")
 	    kolom=input("Jumlah Kolom  : ")
